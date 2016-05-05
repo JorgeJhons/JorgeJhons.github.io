@@ -5,7 +5,7 @@
 }
 
 .blue{
-  background-color:#1976D2;
+  background-color:#0288d1;
   text-align: center;
 }
 .ligth-blue{
@@ -34,3 +34,11 @@
   color: white;
 }
 /***/
+
+.center{
+  text-align: center;
+}
+
+.border{
+    border-radius: 50%;
+}
