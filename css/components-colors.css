@@ -1,0 +1,44 @@
+/* Nuevos colores para personalizar botones: Obtenidos de http://www.materialpalette.com/ */
+.red{
+  background-color:#D32F2F;
+  text-align: center;
+}
+
+.blue{
+  background-color:#0288d1;
+  text-align: center;
+}
+.ligth-blue{
+  background-color:#03A9F4;
+  text-align: center;
+}
+
+.orange-deep{
+  background-color:#FF5722 ;
+  text-align: center;
+}
+
+.teal{
+  background-color:#009688;
+  text-align: center;
+}
+
+.cyan{
+  background-color:#00BCD4;
+  text-align: center;
+}
+/***/
+
+/* Nuevo color para letras*/
+.leters-white{
+  color: white;
+}
+/***/
+
+.center{
+  text-align: center;
+}
+
+.border{
+    border-radius: 50%;
+}
