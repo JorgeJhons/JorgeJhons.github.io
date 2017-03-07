@@ -25,7 +25,7 @@ img {
     border-radius: 0px!important;
 }
 
-<<<<<<< HEAD
+
 .title {
     font-size: 50px;
 }
@@ -57,28 +57,7 @@ img{
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
-=======
-.nav-title {
-    position: relative;
-    min-height: 8%;
-    /* margin-bottom: 20px!important; */
-    border: 1px solid transparent;
-    border-radius: 0px!important;
 }
-
-.nav-body {
-    position: relative;
-    min-height: 15%;
-    /* margin-bottom: 20px!important; */
-    /* border: 1px solid transparent; */
-    border-radius: 0px!important;
-    padding-bottom: 2%;
-}
-
-.h1, h1 {
-    font-size: 50px!important;
-}
-
 .avatar{
     background-color: red;
 }
@@ -102,29 +81,4 @@ img{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-
-#home2{
-    background-color: white;
-  display: table;
-  height: 50%;
-  position: relative;
-  width: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-#home3{
-  background: url(https://acom.azurecomcdn.net/80C57D/cdn/cvt-09880ce522f374c8a45c40d13bb2fa19fcf9b2d7f43deb10b188d8a18a32115b/css/images/home-hero01.jpg) no-repeat center center fixed; 
-  display: table;
-  height: 50%;
-  position: relative;
-  width: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
->>>>>>> 0fc984171db3f0e4706a5d4375ba138d82a54b2c
 }
