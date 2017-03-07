@@ -32,3 +32,23 @@ img{
 .logo{
     border-radius: 50%;
 }
+
+.parallax3 { 
+    /* The image used */
+    background-image: url('espacio1.jpg');
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.white-letters{
+    color: white;
+}
+
+.row-padding{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
