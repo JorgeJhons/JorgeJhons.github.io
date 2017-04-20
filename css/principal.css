@@ -81,3 +81,7 @@ img{
 .titulos {
   font-family: 'Lato', serif;
 }
+
+.center{
+    text-align: center;
+}
