@@ -27,6 +27,12 @@ img{
         /* The image used */
     background-image: url('espacio1.jpg');
 }
+
+.banner2{
+        /* The image used */
+    background-image: url('experiencia.jpg');
+}
+
 .blur { 
     /* Create the parallax scrolling effect */
     
