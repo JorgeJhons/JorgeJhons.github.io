@@ -24,13 +24,17 @@ img{
 }
 
 .banner{
-        /* The image used */
+    /* The image used 
     background-image: url('espacio1.jpg');
+    */
+    background-color: black;
 }
 
 .banner2{
-        /* The image used */
+        /* The image used 
     background-image: url('experiencia.jpg');
+    */
+    background-color: red;
 }
 
 .blur { 
