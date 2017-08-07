@@ -21,7 +21,8 @@ img{
 
 .logo{
     border-radius: 50%;
-    height: 30px;
+    height: 2em;
+    padding-bottom: 0.1em;
 }
 
 .perfil{
@@ -94,4 +95,10 @@ img{
 }
 .black{
     background-color: black;
+}
+
+.container-footer{
+  padding-top: 5em;
+  padding-bottom: 5em;
+  text-align: center;
 }
