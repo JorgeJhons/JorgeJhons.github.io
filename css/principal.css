@@ -21,20 +21,25 @@ img{
 
 .logo{
     border-radius: 50%;
+    height: 30px;
+}
+
+.perfil{
+    border-radius: 50%;
 }
 
 .banner{
     /* The image used 
     background-image: url('espacio1.jpg');
     */
-    background-color: black;
+    background-color:rgb(5, 71, 107);
 }
 
 .banner2{
         /* The image used 
     background-image: url('experiencia.jpg');
     */
-    background-color: red;
+    background-color: rgb(5, 71, 107);
 }
 
 .blur { 
