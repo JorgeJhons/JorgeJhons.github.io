@@ -1,8 +1,7 @@
 $(document).ready(function(){
-	$('.btn-up').hide();
 
 	$(window).scroll(function(){
-		if ($(this).scrollTop()>50) {
+		if ($(this).scrollTop()>0) {
 			$('.btn-up').fadeIn('500');
 		} else {
 			$('.btn-up').fadeOut('500');
