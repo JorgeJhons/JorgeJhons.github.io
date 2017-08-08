@@ -1,7 +1,19 @@
 html, body {
     height: 100%;
     font-size: 12px;    
+}
 
+.avatar{
+    background-color: red;
+}
+
+.avatar {
+    /* width: 9%; */
+    /* height: 16%; */
+    border-radius: 50%;
+    /* float: right; */
+    /* margin-right: 8%; */
+    margin-bottom: 0px;
 }
 
 body {
@@ -15,18 +27,8 @@ body {
     font-size: 50px;
 }
 
-img{
-    height: 150px;
-}
-
-.logo{
-    border-radius: 50%;
-    height: 2em;
-    padding-bottom: 0.1em;
-}
-
-.perfil{
-    border-radius: 50%;
+.black{
+    background-color: black;
 }
 
 .banner{
@@ -52,26 +54,14 @@ img{
     background-size: cover;
 }
 
-.white-letters{
-    color: white;
+.container-footer{
+  padding-top: 5em;
+  padding-bottom: 5em;
+  text-align: center;
 }
 
-.row-padding{
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-.avatar{
-    background-color: red;
-}
-
-.avatar {
-    /* width: 9%; */
-    /* height: 16%; */
-    border-radius: 50%;
-    /* float: right; */
-    /* margin-right: 8%; */
-    margin-bottom: 0px;
+.center{
+  text-align: center;
 }
 
 #home {
@@ -86,19 +76,50 @@ img{
   background-size: cover;
 }
 
+
+img{
+    height: 150px;
+}
+
+.logo{
+    border-radius: 50%;
+    height: 2em;
+    padding-bottom: 0.1em;
+}
+
+.perfil{
+    border-radius: 50%;
+}
+
+.row-padding{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
 .titulos {
   font-family: 'Lato', serif;
 }
 
-.center{
-    text-align: center;
-}
-.black{
-    background-color: black;
+.btn-up{
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
 }
 
-.container-footer{
-  padding-top: 5em;
-  padding-bottom: 5em;
-  text-align: center;
+.white-letters{
+    color: white;
 }
+
+
+
+
