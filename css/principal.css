@@ -109,11 +109,13 @@ img{
   height: 50px;
   border-radius: 50%;
   background: red;
-  display: flex;
+  display: inline-block;
   justify-content: center;
   align-items: center;
   color: white;
   cursor: pointer;
+  bottom: 20px;
+  right: 20px;
 }
 
 .white-letters{
