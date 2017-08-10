@@ -124,6 +124,13 @@ img{
     color: white;
 }
 
+a.navbar-brand {
+    padding-left: 12px;
+    padding-right: 0px;
+    padding-top: 10px;
+    /* padding-bottom: 12px; */
+}
 
-
-
+a.navbar-brand.houston {
+    line-height: 1.5em;
+}
