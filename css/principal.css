@@ -32,10 +32,7 @@ body {
 }
 
 .banner{
-    /* The image used 
-    background-image: url('espacio1.jpg');
-    */
-    background-color:rgb(4, 81, 130);
+background-image: url('/img/banner2.jpg');
 }
 
 .banner2{
@@ -43,6 +40,10 @@ body {
     background-image: url('experiencia.jpg');
     */
     background-color: rgb(5, 71, 107);
+}
+
+.banner3{
+background-image: url('/img/banner4.png');
 }
 
 .blur { 
