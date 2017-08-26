@@ -3,13 +3,19 @@ var app = angular.module('myApp',['ngRoute']);
 app.config(function($routeProvider){
 	$routeProvider
 	.when('/', {
-		templateUrl:'login.html'
+		templateUrl:'inicio.html'
+	})
+	.when('/noticias', {
+		templateUrl:'noticias.html'
+	})
+	.when('/login', {
+		templateUrl:'/login.html'
 	})
 	.when('/dashboard', {
 		resolve:{
 			"check": function($location, $rootScope){
 				if(!$rootScope.loggedIn){
-					$location.path('/');
+					$location.path('/login.html');
 				}
 			}
 		},
