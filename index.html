@@ -3,6 +3,7 @@
     <head>      
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="google-signin-client_id" content="194732893662-4o8fcd5nvhn803qcbcmndiubdk7dfogn.apps.googleusercontent.com">
         <title>HoustonLabs</title>
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -11,7 +12,7 @@
         <link rel="stylesheet" type="text/css" href="css/fontello.css">
         <link rel="shortcut icon" type="image/x-icon" href="img/logo2.ico" />
     </head>
-    <body data-spy="scroll" data-target="#myScrollspy" ng-app="myApp">
+    <body data-spy="scroll" data-target="#myScrollspy" ng-app="myApp" ng-controller="loginCtrl" class="black">
         <header>
             <nav class="navbar-default" id="myScrollspy">
                 <div class="container-fluid">
@@ -32,15 +33,19 @@
                     <div class="collapse navbar-collapse white-letters" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right ">
                                 <li><a class="white-letters center" href="#inicio">Inicio</a></li>
-                                <li><a class="white-letters center" href="#noticias">Noticias</a></li>
                                 <li><a class="white-letters center" href="#login">Iniciar Sesión</a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
                 </div><!-- /.container-fluid -->
             </nav>
         </header>
+        <div id="particles-js">
+            <canvas class="particles-js-canvas-el">
+            </canvas>
+        </div>
         <div ng-view>
         </div>
+        <script src="https://apis.google.com/js/platform.js" async defer></script>
         <!-- jQuery -->
         <script src="js/jquery.min.js"></script>
         <script src="js/angular.js"></script>
@@ -50,6 +55,8 @@
         <!-- JavaScript Principal -->
         <script src="js/main.js"></script>
         <script src="js/controller.js"></script>
+        <script src="js/constellation.js"></script>
+        <script src="js/example.js"></script>
     </body>
     <!-- footer -->
     <footer class="black container-fluid">
